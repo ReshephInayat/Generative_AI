@@ -1,0 +1,9 @@
+# verify its contents:
+cat poetry_command_02.sh
+
+#Check executable permission:
+chmod +x poetry_command_02.sh
+
+#Run the script with debugging:
+#Run the script with sh -x to enable debugging and see what happens:
+sh -x ./poetry_command_02.sh microservice_01
